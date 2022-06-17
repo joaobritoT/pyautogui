@@ -1,0 +1,20 @@
+import pyautogui
+import time 
+
+pyautogui.alert('esse programa ira controlar o seu pc')
+time.sleep(1)
+pyautogui.press('win')
+time.sleep(1)
+pyautogui.write('chrome')
+time.sleep(1)
+pyautogui.press('enter')
+time.sleep(1)
+pyautogui.moveTo(x=1215, y=483)
+time.sleep(1)
+pyautogui.click()
+time.sleep(1)
+pyautogui.write('www.youtube.com')
+time.sleep(1)
+pyautogui.press('enter')
+time.sleep(1)
+pyautogui.alert('fim')
